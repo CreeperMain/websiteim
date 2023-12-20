@@ -1,36 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
 
     <h1><a href="../index.html">The Site's Gallery</a></h1>
-<div class="row">
-  <div class="column">
-    <img src="../sliki/proxy-image.png" alt="Mountain at Dusk" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="../sliki/proxy-image3.jpg" alt="Snowy Mountain" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="../sliki/proxy-image2.jpg" alt="River and Mountain" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img id="noonm" src="../sliki/proxy-image4.jpg" alt="Moutain at Noon" onclick="myFunction(this);">
-  </div>
-</div>
+    <div class="row">
+      <div class="column">
+        <img
+          src="../sliki/proxy-image.png"
+          alt="Mountain at Dusk"
+          onclick="myFunction(this);"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="../sliki/proxy-image3.jpg"
+          alt="Snowy Mountain"
+          onclick="myFunction(this);"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="../sliki/proxy-image2.jpg"
+          alt="River and Mountain"
+          onclick="myFunction(this);"
+        />
+      </div>
+      <div class="column">
+        <img
+          id="noonm"
+          src="../sliki/proxy-image4.jpg"
+          alt="Moutain at Noon"
+          onclick="myFunction(this);"
+        />
+      </div>
+    </div>
 
-<div class="container">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <img id="expandedImg">
-  <div id="imgtext"></div>
-</div> 
-
-</body>
+    <div class="container">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn"
+        >&times;</span
+      >
+      <img id="expandedImg" />
+      <div id="imgtext"></div>
+    </div>
+  </body>
 </html>

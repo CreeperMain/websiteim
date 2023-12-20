@@ -1,30 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
-body{
-    background-image: url(../sliki/proxy-image4.jpg);
-    text-align: center;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+body {
+  background-image: url(../sliki/proxy-image4.jpg);
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-h1{
-   font-size: 50px;
-   color: #8caaee; 
-   font-family: 'JetBrains Mono', monospace;
+h1 {
+  font-size: 50px;
+  color: #8caaee;
+  font-family: "JetBrains Mono", monospace;
 }
-a{
-    padding: 5px;
-    text-align: center;
-    font-family: 'JetBrains Mono', monospace;
-    color: #8caaee;
-    text-decoration: none;
+a {
+  padding: 5px;
+  text-align: center;
+  font-family: "JetBrains Mono", monospace;
+  color: #8caaee;
+  text-decoration: none;
 }
-a:hover{
-    text-decoration: underline;
+a:hover {
+  text-decoration: underline;
 }
-p{
-    color: #303446;
-    text-align: justify;
-    font-family: 'Ubuntu Mono', monospace;
+p {
+  color: #303446;
+  text-align: justify;
+  font-family: "Ubuntu Mono", monospace;
 }

@@ -1,5 +1,5 @@
 console.log("rabotit ova?");
 
 function proba() {
-  alert("this feature is not yet implemented");
+  alert("This feature is not yet implemented");
 }

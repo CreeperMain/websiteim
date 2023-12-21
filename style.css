@@ -1,15 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+/*ova ispod */
+@import url("https://www.nerdfonts.com/assets/css/webfont.css");
+/* ova e nm ubo  pak da to koristish ^^^^^^^^ */
 body {
-  background-image: url(./sliki/proxy-image3.jpg);
-  width: 100%;
-  height: 90vh;
-  padding: 5px;
-  display: flexbox;
+  display: flex;
+  flex-direction: column;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.gornoto {
+  background-image: url(./sliki/proxy-image3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 110vh;
+  display: grid;
+  align-items: center;
+}
+.srednoto {
+  background-color: #303446;
+  color: #c6d0f5;
+  font-family: "Ubuntu Mono", monospace;
+  width: 100%;
+  height: 110vh;
+  font-size: 25px;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  text-align: justify;
+}
+.ona {
+  margin: 500px;
 }
 .bar {
   text-align: center;
@@ -17,7 +47,7 @@ body {
   justify-content: space-evenly;
   display: flex;
   width: 100%;
-  padding: 7px;
+  padding-top: 7px;
   margin-bottom: 60px;
 }
 a {
@@ -48,6 +78,7 @@ a:hover {
 h1 {
   font-size: 50px;
   color: #8caaee;
+  text-align: center;
 }
 h3 {
   font-size: 50px;
@@ -55,17 +86,48 @@ h3 {
   text-align: center;
   font-family: "Hurricane", cursive;
 }
-aside {
-  border-radius: 5px;
-  margin-right: 25px;
-  float: right;
-  font-style: italic;
-  background-color: red;
-  backdrop-filter: blur(8px);
+.skri {
+  opacity: 0;
+  transition: all 0.5s;
+  transform: translateX(-100%);
+  filter: blur(5px);
 }
-.s1 {
-  background-color: red;
-  width: 100%;
-  height: 10vh;
-  margin-top: 150px;
+.pokazhi {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
+.poslednoto {
+  font-family: "Ubuntu Mono", monospace;
+  display: grid;
+  align-items: center;
+  place-items: center;
+  height: 90vh;
+  place-items: center;
+  align-content: center;
+  text-align: justify;
+  background-color: white;
+  align-content: space-between;
+}
+.ona2 {
+  text-align: center;
+  text-justify: center;
+}
+footer {
+  text-align: center;
+  font-family: "JetBrains Mono", monospace;
+  padding: 20px;
+  font-size: 20px;
+}
+.nf-dev-linux {
+  color: #232634;
+  font-size: 40px;
+}
+.nf-dev-vim {
+  color: #a6d189;
+  font-size: 40px;
+}
+.nf-fa-heart {
+  color: #e78284;
+  font-size: 40px;
 }

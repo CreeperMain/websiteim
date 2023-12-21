@@ -6,6 +6,7 @@ body {
   padding: 5px;
   background-color: #303446;
   margin: 0;
+  text-align: center;
 }
 h1 {
   text-align: center;
@@ -13,11 +14,14 @@ h1 {
   color: #c6d0f5;
 }
 a {
+  text-align: center;
   padding: 5px;
   text-align: center;
   font-family: "JetBrains Mono", monospace;
   color: #c6d0f5;
   text-decoration: none;
+  transition: background-color 0.5s ease;
+  border-radius: 8px;
 }
 a:hover {
   background-color: #51576d;
@@ -33,7 +37,7 @@ img {
   padding: 12px;
 }
 .column img {
-  opacity: 0.8;
+  opacity: 0.6;
   cursor: pointer;
   box-shadow: 13px 13px 12px 0px rgba(0, 0, 0, 0.21);
 }

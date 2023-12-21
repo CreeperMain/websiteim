@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+@import url("https://www.nerdfonts.com/assets/css/webfont.css");
 body {
   background-image: url(../sliki/proxy-image4.jpg);
   text-align: center;
@@ -7,11 +8,24 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 h1 {
   font-size: 50px;
   color: #8caaee;
   font-family: "JetBrains Mono", monospace;
+}
+.txt-box {
+  font-size: 25px;
+  width: 30%;
+  text-align: justify;
+  border-radius: 15px;
+  padding: 0.5em 5em 0.5em 5em; /* zameni gi ovije*/
+  color: #c6d0f5;
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.2);
 }
 a {
   padding: 5px;
@@ -23,8 +37,24 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.naz {
+  text-align: center;
+}
 p {
   color: #303446;
   text-align: justify;
   font-family: "Ubuntu Mono", monospace;
+}
+footer {
+  margin-top: 3vh;
+  font-size: 38px;
+}
+.nf-dev-linux {
+  color: #232634;
+}
+.nf-dev-vim {
+  color: #a6d189;
+}
+.nf-fa-heart {
+  color: #e78284;
 }
